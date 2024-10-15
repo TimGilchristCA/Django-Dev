@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-ui!^&h1vi^0yf4xfng(9)y0a4guz6y=8!o82$l+j11o-k29fbm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = [".replit.dev", ".replit.app"]
+CSRF_TRUSTED_ORIGINS = ["https://*.replit.dev", "https://*.replit.app"]
 
 # Application definition
 
